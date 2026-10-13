@@ -1,0 +1,35 @@
+# ÕæÊµ½ø¼ÛÓë¹©Ó¦ÉÌ£¬²»Èë¿â
+data/materials.csv
+data/orders/
+
+# ±¾µØ½Å±¾
+°×¶ò.py
+ĞŞ¸´.py
+ĞÂµ¥.py
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ÓïÁÏÓëÄ£ĞÍ
+corpus/
+*.jsonl
+*.gguf
+*.safetensors
+out/
+
+# ±à¼­Æ÷ÓëÏµÍ³
+.vscode/
+.idea/
+Thumbs.db
+*.zip
+# çœŸå®ç»è¥æ•°æ®ï¼ˆ2026-10-08 è„±æ•è¡¥å……ï¼‰
+/orders.csv
+data/*.csv
+!data/materials.sample.csv
+data/*.db
+data/backup_*/
+build_db.before_mcp.py
+data/pricing.json
